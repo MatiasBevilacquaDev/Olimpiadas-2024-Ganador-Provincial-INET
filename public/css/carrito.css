@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+/* Carrito Section */
+.carrito {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrito h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.producto .nombre {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.producto .descripcion {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.producto .precio {
+    font-size: 18px;
+    color: #e53935;
+    margin-bottom: 10px;
+}
+
+/* Checkout Form */
+#checkout-form {
+    margin-top: 20px;
+}
+
+#checkout-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#checkout-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#checkout-form button {
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#checkout-form button:hover {
+    background-color: #d32f2f;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social p {
+    margin: 0;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+}
+
+/* Total Container */
+#total-container {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#total-container h2 {
+    margin: 0;
+    color: #333;
+}

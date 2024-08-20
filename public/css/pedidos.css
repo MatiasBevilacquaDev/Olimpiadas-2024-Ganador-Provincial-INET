@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header .menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header .menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .menu .carrito-icon {
+    width: 24px;
+    vertical-align: middle;
+}
+
+/* Section Styles */
+section.pedidos {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+section.pedidos h1 {
+    margin-top: 0;
+}
+
+/* Pedidos Container */
+#pedidos-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pedido {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.pedido div {
+    margin-bottom: 10px;
+}
+
+.pedido .pedido-id {
+    font-weight: bold;
+}
+
+.pedido .pedido-fecha {
+    font-style: italic;
+}
+
+.pedido .pedido-total {
+    font-size: 1.2em;
+    color: #e74c3c;
+}
+
+.pedido .pedido-productos {
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+footer .footer-social {
+    margin-top: 10px;
+}
+
+footer .footer-social img {
+    width: 24px;
+    margin: 0 5px;
+}
+.pedido-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-anular {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-entregado {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-anular:hover,
+.btn-entregado:hover {
+    opacity: 0.8;
+}
+

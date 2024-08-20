@@ -1,0 +1,139 @@
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Aplicar la fuente a todo el documento */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Estilos para el header y el menú */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #4CAF50;
+}
+
+/* Icono del carrito */
+.carrito-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* Estilos específicos para productos */
+.producto {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.producto .nombre {
+    flex: 2;
+    font-weight: 700;
+    color: #333;
+}
+
+.producto .descripcion {
+    flex: 3;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.producto .precio {
+    flex: 1;
+    text-align: right;
+    font-weight: 700;
+    color: #4CAF50;
+}
+
+.producto .agregar {
+    flex: 1;
+    text-align: right;
+}
+
+.producto button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.producto button:hover {
+    background-color: #45a049;
+}
+
+/* Contenedor de productos */
+.productos {
+    padding: 20px;
+}
+
+.productos h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.footer-social a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
