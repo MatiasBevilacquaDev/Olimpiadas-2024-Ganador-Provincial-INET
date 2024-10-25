@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <title>Login - Tienda Deportistas</title>
+    <link rel="stylesheet" href="login.css">
     <script src="login.js" defer></script>
 </head>
 <body>
-<div class="login-container">
-    <form id="login-form">
-        <h2>Iniciar sesión</h2>
-        <label for="username">Nombre de usuario:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required>
-        <div class="button-container">
-            <button type="button" class="register-btn" onclick="window.location.href='register.html'">Register</button>
-            <button type="submit">Iniciar sesión</button>
+    <div class="background">
+        <div class="welcome-message">
+            <h1>BIENVENIDO A TIENDA DEPORTISTAS</h1>
+            <p>Por favor, inicia sesión completando los campos a continuación:</p>
         </div>
-    </form>
-</div>
+        <div class="login-container">
+            <form id="login-form">
+                <h2>Iniciar sesión</h2>
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <div class="button-container">
+                    <button type="button" class="register-btn" onclick="window.location.href='register.html'">Registrarse</button>
+                    <button type="submit">Iniciar sesión</button>
+                </div>
+                <div id="success-message" style="display: none; color: green;">Iniciaste sesión con éxito.</div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

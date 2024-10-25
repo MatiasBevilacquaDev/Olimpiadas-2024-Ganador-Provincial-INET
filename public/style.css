@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+
+.navbar {
+    background-color: #2e5d74; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #03e6ff;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: #03e6ff;
+}
+
+.btn-outline-success:hover {
+    background-color: #03e6ff;
+    border-color: #03e6ff;
+}
+
+
+.hero {
+    height: 80vh;
+    background-image: url('fondoprincipal.webp'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.btn-productos {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-productos:hover {
+    background-color: #0056b3;
+}
+
+
+footer {
+    background-color: #2e5d74;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-social p {
+    margin: 10px 0;
+}
+
+
+h1, p, a, button, label {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 10px 0;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .btn-productos {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .btn-productos {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

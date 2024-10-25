@@ -1,0 +1,109 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+
+.navbar {
+    background-color: #141414; 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #03e6ff;
+}
+
+
+.form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url('cargarproductos.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #fafafa;
+    font-size: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #11df22;
+}
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-social p {
+    margin: 10px 0;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
+

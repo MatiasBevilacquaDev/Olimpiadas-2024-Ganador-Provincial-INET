@@ -30,7 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
                             `).join("")}
                         </div>
                         <button class="btn-anular" data-id="${pedido.id_pedido}">Anular</button>
-                        <button class="btn-modificar" data-id="${pedido.id_pedido}">Modificar</button>
                     `;
                     pedidosContainer.appendChild(pedidoDiv);
                 });

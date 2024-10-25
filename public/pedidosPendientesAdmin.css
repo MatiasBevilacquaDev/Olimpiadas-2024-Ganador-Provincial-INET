@@ -1,0 +1,146 @@
+/* pedidos.css */
+/* pedidos.css */
+.pedidos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.pedido {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pedido:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pedido-id, .pedido-direccion, .pedido-total, .pedido-status {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.pedido-productos {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.pedido-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-entregado, .btn-anular {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-entregado:hover, .btn-anular:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar {
+    background-color: #8ac916;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #173e42;
+}
+
+
+.pedidos {
+    background-image: url('pendientes.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.pedidos h1 {
+    color: #200a9b;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.pedidos-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #16181a;
+    color: rgb(0, 195, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-social p {
+    margin: 10px 0;
+}
+
+.footer-social a {
+    color: rgb(0, 195, 255);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .pedidos h1 {
+        font-size: 2.5rem;
+    }
+
+    .pedidos-container {
+        width: 90%;
+    }
+}
+

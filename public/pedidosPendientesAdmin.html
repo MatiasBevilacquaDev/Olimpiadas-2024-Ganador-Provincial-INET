@@ -4,26 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedidos Pendientes - Tienda de Productos Deportivos</title>
-    <link rel="stylesheet" href="css/pedidos.css">
+    <link rel="stylesheet" href="pendientes.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <style>
+    </style>
 </head>
 <body>
 <header>
-    <nav>
-        <ul class="menu">
-            <li><a href="carga">Cargar productos</a></li>
-            <li><a href="pedidosPendientesAdmin.html">Pedidos pendientes</a></li>
-            <li><a href="productos.html">Productos</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-celeste">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo" style="width: 85px;"> 
+                <span style="color: #000000; font-weight: bold;">ADMINISTRACION</span> 
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #666262; font-weight: bold;" href="cargar_productos.html">CARGAR PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #666262; font-weight: bold;" href="pedidosPendientesAdmin.html">PEDIDOS PENDIENTES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: #666262; font-weight: bold;" href="productos.html">PRODUCTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
     </nav>
 </header>
 
 <section class="pedidos">
-    <h1>Pedidos Pendientes</h1>
     <div id="pedidos-container"></div>
 </section>
 
 <footer>
     <p>&copy; 2024 Tienda de Productos Deportivos. Todos los derechos reservados.</p>
+    <p>Página campeona de olimpiadas provinciales 2024</p>
     <div class="footer-social">
         <p>Síguenos en nuestras redes sociales:</p>
         <a href="#">Facebook</a>

@@ -4,27 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
-<form action="/register" method="post">
-    <h2>Registro</h2>
-    <label for="correo">Correo:</label>
-    <input type="email" id="correo" name="correo" required><br><br>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1>BIENVENIDO A TIENDA DEPORTISTAS</h1>
+                <p>Por favor, registrate completando los campos a continuación:</p>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="form-container">
+        <form action="/register" method="post">
+            <h2>Registro</h2>
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
 
-    <label for="username">Usuario:</label>
-    <input type="text" id="username" name="username" required><br><br>
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
 
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-    <label for="apellido">Apellido:</label>
-    <input type="text" id="apellido" name="apellido" required><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
 
-    <label for="password">Contraseña:</label>
-    <input type="password" id="password" name="password" required><br><br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
 
-    <button type="submit">Registrarse</button>
-</form>
+            <button type="submit" class="register-btn">Registrarse</button>
+        </form>
+    </div>
 </body>
 </html>
